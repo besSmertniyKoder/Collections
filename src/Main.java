@@ -15,11 +15,11 @@ public class Main {
 
         String s6 = new String(new char[]{'h', 'e', 'l', 'l', 'o'});
 
-        System.out.println(s1==s2);
-        System.out.println(s1==s3);
-        System.out.println(s1==s4);
-        System.out.println(s1==s5);
-        System.out.println(s1==s6);
+        System.out.println(s1 == s2);
+        System.out.println(s1 == s3);
+        System.out.println(s1 == s4);
+        System.out.println(s1 == s5);
+        System.out.println(s1 == s6);
         System.out.println("//////////////");
         System.out.println(s1.equals(s2));
         System.out.println(s1.equals(s3));
@@ -27,6 +27,9 @@ public class Main {
         System.out.println(s1.equals(s5));
         System.out.println(s1.equals(s6));
         Object[] objects = {"fjkaj", 490, true};
+        Object object = new Object();
+        object = "8";
+        System.out.println(object);
 
 
         ArrayList<String> arrayList = new ArrayList<>();
@@ -38,8 +41,6 @@ public class Main {
         arrayList.remove(0);
         arrayList.remove("true");
         Collections.sort(arrayList);
-
-
 
 
     }
