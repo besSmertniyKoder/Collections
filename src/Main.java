@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
@@ -30,6 +31,10 @@ public class Main {
         Object object = new Object();
         object = "8";
         System.out.println(object);
+        Random random = new Random();
+        for (int i = 0; i < 100; i++) {
+            System.out.println(random.nextInt(0,5));
+        }
 
 
         ArrayList<String> arrayList = new ArrayList<>();
